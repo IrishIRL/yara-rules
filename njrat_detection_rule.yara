@@ -2,7 +2,8 @@
    YARA Rule Set
    Author: mashaf
    Date: 2022-11-20
-   Reference: https://github.com/Yara-Rules/rules/blob/master/malware/RAT_Njrat.yar
+   Reference1: https://github.com/Yara-Rules/rules/blob/master/malware/RAT_Njrat.yar
+   Reference2: https://github.com/cve0day/RAT
 */
 
 /* Rule Set ----------------------------------------------------------------- */
