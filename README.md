@@ -3,7 +3,7 @@
 Create a Yara rule to detect a NjRAT malware.
 
 ## Sources
-To create a rule, 16 different builders were used to create malware sampes. Builder sources: https://github.com/cve0day/RAT
+To create a rule, 16 different builders were used to create malware sampes. Builder sources: https://github.com/cve0day/RAT <br>
 Also used got some strings from https://github.com/Yara-Rules/rules/blob/master/malware/RAT_Njrat.yar
 
 ## Issues with YARA
