@@ -1,6 +1,6 @@
 /*
    YARA Rule Set
-   Author: mashaf
+   Author: IrishIRL
    Date: 2022-11-20
    Reference1: https://github.com/Yara-Rules/rules/blob/master/malware/RAT_Njrat.yar
    Reference2: https://github.com/cve0day/RAT
@@ -10,7 +10,7 @@
 
 rule NjRat {
    meta:
-      author = "mashaf"
+      author = "IrishIRL"
       description = "NjRat - Remote Access Trojan"
       comment = "Combined from personal collected strings and some data from the reference"
       reference = "https://github.com/Yara-Rules/rules/blob/master/malware/RAT_Njrat.yar"
