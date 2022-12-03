@@ -1,20 +1,18 @@
 /*
    YARA Rule Set
    Author: IrishIRL
-   Date: 2022-11-20
+   Date: 2022-12-03
    Reference1: https://github.com/Yara-Rules/rules/blob/master/malware/RAT_Njrat.yar
    Reference2: https://github.com/cve0day/RAT
+   Identifier: malware
 */
 
-/* Rule Set ----------------------------------------------------------------- */
-
-rule NjRat {
+rule NjRat: RAT
+{
    meta:
       author = "IrishIRL"
       description = "NjRat - Remote Access Trojan"
       comment = "Combined from personal collected strings and some data from the reference"
-      reference = "https://github.com/Yara-Rules/rules/blob/master/malware/RAT_Njrat.yar"
-      date = "2022-11-20"
       hash1 = "71aba8ec37ab3ceea5e4609be93e40085608f0f45ac74166c850308866677733"
       hash2 = "d1ae188fa0e8c51c24617c8ce67e27561444a22ac26a92ea2a85f0606780f11b"
       hash3 = "b3a507bbe1dad3081643e9e34e997f69f71441cb0baa1a4f74f3bf5fea145f10"
